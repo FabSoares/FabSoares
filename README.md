@@ -163,7 +163,9 @@ fabricio@dev:~$ _
 < 06. ACHIEVEMENTS />
 <div align="center">
 
-Mostrar Imagem
+ <img width="1123" height="795" alt="Captura de tela 2026-08-17 020419" src="https://github.com/user-attachments/assets/828e1904-c34b-497b-9339-0d576328542c" />
+
+
 
 </div> <br> <!-- ===================== SNAKE ANIMATION ===================== -->
 < 07. CONTRIBUTION_STREAM />
@@ -171,7 +173,7 @@ Mostrar Imagem
 
 
 <br> <!-- ===================== REDES SOCIAIS ===================== -->
-## `<` 05. CANAIS_DE_CONEXAO `/>`
+## `<` 08. CANAIS_DE_CONEXAO `/>`
 
 <div align="center">
 
