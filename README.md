@@ -157,8 +157,60 @@ fabricio@dev:~$ _
 
 
 
+<br> <!-- ===================== GITHUB STATS ===================== -->
+< 05. SYSTEM_METRICS />
+<div align="center"> <img height="165em" src="https://github-readme-stats.vercel.app/api?username=fabriciossoares2006-del&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F6FF&icon_color=8A2BE2&text_color=C9D1D9&include_all_commits=true&count_private=true"/> <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabriciossoares2006-del&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F6FF&text_color=C9D1D9&langs_count=8"/> <img src="https://streak-stats.demolab.com?user=fabriciossoares2006-del&theme=tokyonight&hide_border=true&background=0D1117&ring=00F6FF&fire=8A2BE2&currStreakLabel=00F6FF"/> <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=fabriciossoares2006-del&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F6FF&line=8A2BE2&point=39FF14&area=true"/> </div> <br> <!-- ===================== TROPHIES ===================== -->
+< 06. ACHIEVEMENTS />
+<div align="center">
 
-<!-- ===================== REDES SOCIAIS ===================== -->
+Mostrar Imagem
+
+</div> <br> <!-- ===================== SNAKE ANIMATION ===================== -->
+< 07. CONTRIBUTION_STREAM />
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake.svg" /> <img alt="snake contribution animation" src="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake.svg" width="100%"/> </picture> </div>
+
+⚠️ Essa imagem só aparece DEPOIS que o workflow rodar pelo menos uma vez. Passo a passo:
+
+Crie um repositório com o nome exatamente igual ao seu usuário do GitHub (ex.: user joao123 → repositório joao123).
+Dentro dele, crie o arquivo .github/workflows/snake.yml (arquivo já pronto — veja abaixo).
+Vá em Settings → Actions → General → Workflow permissions e marque "Read and write permissions".
+Vá na aba Actions → Generate Snake Animation → Run workflow e rode manualmente uma vez.
+Aguarde a criação automática da branch output — é nela que o SVG da cobrinha fica hospedado.
+Troque fabriciossoares2006-del pelo seu usuário real nos dois links srcset acima.
+yaml
+# .github/workflows/snake.yml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # roda a cada 6 horas
+  workflow_dispatch:         # permite rodar manualmente
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push output to "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<br> <!-- ===================== REDES SOCIAIS ===================== -->
 ## `<` 05. CANAIS_DE_CONEXAO `/>`
 
 <div align="center">
