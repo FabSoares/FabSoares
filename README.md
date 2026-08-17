@@ -158,9 +158,11 @@ fabricio@dev:~$ _
 
 
 <br> <!-- ===================== GITHUB STATS ===================== -->
-< 05. SYSTEM_METRICS />
+## < 05. SYSTEM_METRICS />
 <div align="center"> <img height="165em" src="https://github-readme-stats.vercel.app/api?username=fabriciossoares2006-del&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F6FF&icon_color=8A2BE2&text_color=C9D1D9&include_all_commits=true&count_private=true"/> <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabriciossoares2006-del&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F6FF&text_color=C9D1D9&langs_count=8"/> <img src="https://streak-stats.demolab.com?user=fabriciossoares2006-del&theme=tokyonight&hide_border=true&background=0D1117&ring=00F6FF&fire=8A2BE2&currStreakLabel=00F6FF"/> <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=fabriciossoares2006-del&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F6FF&line=8A2BE2&point=39FF14&area=true"/> </div> <br> <!-- ===================== TROPHIES ===================== -->
-< 06. ACHIEVEMENTS />
+
+
+## < 06. ACHIEVEMENTS />
 <div align="center">
 
  <img width="1123" height="795" alt="Captura de tela 2026-08-17 020419" src="https://github.com/user-attachments/assets/828e1904-c34b-497b-9339-0d576328542c" />
@@ -168,7 +170,8 @@ fabricio@dev:~$ _
 
 
 </div> <br> <!-- ===================== SNAKE ANIMATION ===================== -->
-< 07. CONTRIBUTION_STREAM />
+
+## < 07. CONTRIBUTION_STREAM />
 <div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake.svg" /> <img alt="snake contribution animation" src="https://raw.githubusercontent.com/fabriciossoares2006-del/fabriciossoares2006-del/output/github-contribution-grid-snake.svg" width="100%"/> </picture> </div>
 
 
