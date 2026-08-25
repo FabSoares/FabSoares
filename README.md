@@ -60,7 +60,7 @@ missao: >
 |:---:|:---|
 | 🖥️ **Linguagens** | ![Python](https://img.shields.io/badge/-Python-14151A?style=flat-square&logo=python) ![SQL](https://img.shields.io/badge/-SQL-14151A?style=flat-square&logo=postgresql) |
 | 🗄️ **Banco de Dados** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-14151A?style=flat-square&logo=postgresql) ![Xano](https://img.shields.io/badge/-Xano-14151A?style=flat-square&logo=databricks) |
-| 🔌 **APIs & Backend** | ![REST](https://img.shields.io/badge/-REST%20API-14151A?style=flat-square&logo=fastapi) ![n8n](https://img.shields.io/badge/-n8n-14151A?style=flat-square&logo=n8n) |
+| 🔌 **APIs & Backend** | ![REST](https://img.shields.io/badge/-REST%20API-14151A?style=flat-square&logo=fastapi)|
 | 📱 **Frontend / No-Code** | ![FlutterFlow](https://img.shields.io/badge/-FlutterFlow-14151A?style=flat-square&logo=flutter) |
 | 🛠️ **Ferramentas** | ![DBeaver](https://img.shields.io/badge/-DBeaver-14151A?style=flat-square&logo=databricks) ![Git](https://img.shields.io/badge/-Git-14151A?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-14151A?style=flat-square&logo=github) ![VSCode](https://img.shields.io/badge/-VS%20Code-14151A?style=flat-square&logo=visualstudiocode) |
 
